@@ -77,6 +77,16 @@
   transform: rotate(225deg);
 }
 
+.menu__down-arrow {
+  transform: rotate(315deg);
+}
+
+.menu__container > button > .menu__down-arrow {
+  position: absolute;
+  top: 0.3em;
+  right: calc(1.15em / 2);
+}
+
 .menu__container .menu__sub-menu {
   position: absolute;
   width: 20em;

@@ -5,6 +5,7 @@ import './index.css';
 import PointInTimeDateChooser from './PointInTimeDateChooser';
 import DateRangeChooser from './DateRangeChooser';
 import reportWebVitals from './reportWebVitals';
+import SimpleSelectMenu from './SimpleSelectMenu';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,6 +14,7 @@ root.render(
   <React.StrictMode>
     <PointInTimeDateChooser />
     <DateRangeChooser />
+    <SimpleSelectMenu />
   </React.StrictMode>
 );
 

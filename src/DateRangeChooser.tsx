@@ -4,7 +4,7 @@ const DateRangeChooser = () => (
   <div className='menu__container'>
     <button>
       Choose date range
-      <span className='menu__arrow'>▼</span>
+      <span className='menu__down-arrow'>∟</span>
       <ul>
         <li>
           Next <input placeholder='N' className='menu__input-number' type='number' min={0} max={730}/> days

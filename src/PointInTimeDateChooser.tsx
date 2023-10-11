@@ -4,7 +4,7 @@ const PointInTimeDateChooser = () => (
   <div className='menu__container'>
     <button>
       Choose date
-      <span className='menu__arrow'>▼</span>
+      <span className='menu__down-arrow'>∟</span>
       <ul>
         <li>
           Date fields
