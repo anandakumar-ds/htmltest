@@ -1,10 +1,13 @@
-import './Menu.css'
+import './PointInTimeDateChooser.css'
 
 export default function PointInTimeDateMenu() {
+  const handleClick = (e: React.MouseEvent<HTMLElement>) => {
+    console.log('clicked:', e)
+  }
   return (
     <div className='menu__container'>
       <button>
-        Menu
+        Choose date
         <span className='menu__arrow'>▼</span>
         <ul>
           <li>
@@ -18,8 +21,8 @@ export default function PointInTimeDateMenu() {
                 <li>
                   <h4>Step 1</h4>
                   <ul>
-                    <li>Close date</li>
-                    <li>Last contacted date</li>
+                    <li onClick={handleClick}>Close date</li>
+                    <li onClick={handleClick}>Last contacted date</li>
                   </ul>
                 </li>
                 <li className='menu__sub-menu__divider'></li>
@@ -45,7 +48,7 @@ export default function PointInTimeDateMenu() {
             Special dates
             <span className='menu__right-arrow'>∟</span>
             <div className='menu__sub-menu'>
-              <ul className='select-items'>
+              <ul className='select-items' onClick={handleClick}>
                 <li>Today</li>
                 <li>Tomorrow</li>
                 <li>Yesterday</li>
