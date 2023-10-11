@@ -209,3 +209,7 @@
     0px 0px 0px 3.5px #f0ecff;
   outline: 0;
 }
+
+.menu__container input.menu__item-input + .menu__input-ok-button {
+  margin: calc(var(--menu-item-spacing) * 1.5);
+}

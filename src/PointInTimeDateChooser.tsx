@@ -65,6 +65,7 @@ const PointInTimeDateChooser = () => (
               <li>
                 <label className='menu__item-label'>Enter a specific date</label>
                 <input type='date' className='menu__item-input' />
+                <button className='menu__input-ok-button'>OK</button>
               </li>
             </ul>
           </div>
